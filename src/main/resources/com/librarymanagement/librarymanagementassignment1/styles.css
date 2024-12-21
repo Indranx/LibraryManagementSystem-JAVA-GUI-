@@ -1,0 +1,100 @@
+/* General application background */
+.root {
+    -fx-background-color: #D4EBF8; /* Soft light blue background */
+}
+
+/* Title Label Styling */
+.label {
+    -fx-font-size: 24px; /* Increase font size for emphasis */
+    -fx-font-weight: bold; /* Make title bold */
+    -fx-text-fill: #1F509A; /* Primary blue color for text */
+    -fx-padding: 10px 0; /* Padding for spacing */
+}
+
+/* Small Label Styling (for smaller text like descriptions) */
+.small-label {
+    -fx-font-size: 14px; /* Adjust smaller font size */
+    -fx-text-fill: #0A3981; /* Darker text color for readability */
+    -fx-font-style: italic; /* Italicize for emphasis */
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: #FFFFFF; /* White background for clarity */
+    -fx-border-color: #1F509A; /* Primary blue color border */
+    -fx-padding: 15px; /* Space between content and border */
+    -fx-font-size: 14px; /* Set font size for table content */
+}
+
+/* Table Header Styling */
+.table-view .column-header-background {
+    -fx-background-color: #1F509A; /* Primary color for header background */
+    -fx-text-fill: #FFFFFF; /* White text for headers */
+    -fx-font-size: 16px; /* Slightly larger font for readability */
+    -fx-padding: 1px; /* Padding for header content */
+}
+
+/* Buttons Styling */
+.button {
+    -fx-background-color: #1F509A; /* Primary button color */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-weight: bold; /* Bold text for emphasis */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-padding: 10px 20px; /* Generous padding for buttons */
+    -fx-border-radius: 10px; /* Rounded corners for modern look */
+    -fx-background-radius: 10px; /* Match border radius */
+    -fx-cursor: hand; /* Hand cursor for interactivity */
+    -fx-transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button Hover Effect */
+.button:hover {
+    -fx-background-color: #0A3981; /* Darker shade for hover effect */
+}
+
+/* Button Active (Pressed) Effect */
+.button:pressed {
+    -fx-background-color: #E38E49; /* Accent color when pressed */
+}
+
+/* Search Box and Text Fields Styling */
+.text-field {
+    -fx-background-color: #FFFFFF; /* White background */
+    -fx-border-color: #1F509A; /* Border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 8px 12px; /* Inner padding for text fields */
+    -fx-font-size: 14px; /* Text field font size */
+    -fx-focus-color: #1F509A; /* Highlight the border color when focused */
+}
+
+/* ComboBox Styling */
+.combo-box {
+    -fx-background-color: #FFFFFF; /* White background */
+    -fx-border-color: #1F509A; /* Border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-padding: 5px 12px; /* Inner padding */
+}
+
+/* Alerts and Pop-ups */
+.dialog-pane {
+    -fx-background-color: #E38E49; /* Accent color for pop-up background */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-weight: bold; /* Bold text for better readability */
+    -fx-font-size: 14px; /* Adjust font size for dialog text */
+    -fx-border-radius: 10px; /* Rounded corners for dialog */
+    -fx-padding: 15px; /* Padding inside the dialog pane */
+}
+
+/* Dialog Header Styling */
+.dialog-pane .header-panel {
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-size: 16px; /* Larger font size for header */
+    -fx-font-weight: bold; /* Bold for header */
+}
+
+/* Dialog Content Styling */
+.dialog-pane .content {
+    -fx-font-size: 14px; /* Adjust font size for content */
+    -fx-text-fill: #0A3981; /* Darker text color for the content */
+}
